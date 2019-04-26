@@ -1,0 +1,4 @@
+int main() {
+    int i;
+    i[0];   // type 10: subscript to non-array type
+}

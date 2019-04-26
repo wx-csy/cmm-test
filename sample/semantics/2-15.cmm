@@ -1,0 +1,8 @@
+struct Position {
+    float x, y;
+    int x;  // type 15: redefined field 'x'
+};
+
+int main() {
+
+}

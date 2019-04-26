@@ -1,0 +1,5 @@
+int main() {
+    int i[10];
+    i[1.5] = 10;    // type 12: array subscript not integer
+}
+

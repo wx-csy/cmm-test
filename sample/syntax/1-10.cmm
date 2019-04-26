@@ -1,0 +1,10 @@
+int main()
+{
+    /*
+    comment
+    /*
+    nested comment */
+    */
+    */  // syntax error
+    int i = 1;
+}

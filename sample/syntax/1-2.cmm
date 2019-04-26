@@ -1,0 +1,9 @@
+int main()
+{
+  float a[10][2];
+  int i;
+  a[5,3] = 1.5;         // syntax error
+  if (a[1][2] == 0) 
+    i = 1 
+  else i = 0;   // syntax error
+}

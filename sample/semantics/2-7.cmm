@@ -1,0 +1,4 @@
+int main() {
+    float j;
+    10 + j; // type 7: type mismatch
+}
