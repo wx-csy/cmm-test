@@ -5,6 +5,6 @@ int func() {
 
 int main() {
     int i ;
-    int i. j;   // ERROR: redefined 'i'
+    int i, j;   // ERROR: redefined 'i'
     j = func();
 }
