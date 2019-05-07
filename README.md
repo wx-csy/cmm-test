@@ -13,3 +13,4 @@ The test set assumes the implementation follows the specification below :
 - Logical operation (&&, ||, !) evaluates to 1 if the value is true, or 0 if false.
 - Logical AND (&&) / OR(||) are evaluated in short-circuit style.
 - All expressions within a statement are evaluated in *LEFT-TO-RIGHT* order. This includes operands in binary operations and function parameters. All expressions *MUST* be evaluated even if the value is discarded, with one exception that the expression skipped in short-circuited evaluation *MUST NOT* be evaluated.
+- Unlike C/C++, when function parameter is of array type, the array has full value semantics and thus the entire array is passed by value.
